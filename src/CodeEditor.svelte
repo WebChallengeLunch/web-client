@@ -1,15 +1,13 @@
-<!-- <section> -->
-  <!-- <iframe asrc="https://stackblitz.com/edit/svelte-338kgr"></iframe> -->
-<!-- </section> -->
-<p>
-  <iframe src="https://stackblitz.com/edit/svelte-338kgr?ctl=1&embed=1&file=index.js&hideNavigation=1&view=editor"></iframe>
-</p>
+<script>
+  export let id, settings
+</script>
 
-<!-- Default data -->
-<!-- Include styles -->
+<iframe src="https://stackblitz.com/edit/{id}?{settings}"></iframe>
+
 <style>
   iframe {
     width: 100%;
-    height: 600px
+    height: 100%;
+    margin-bottom: 20px;
   }
 </style>

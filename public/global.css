@@ -64,3 +64,12 @@ button:not(:disabled):active {
 button:focus {
 	border-color: #666;
 }
+
+.carousel, .carousel .slides, .carousel .slides > div, .carousel .slides > div > div {
+	height: 100%;
+	width: 100%;
+}
+
+.carousel ul.svelte-6pleld {
+	display: none;
+}
